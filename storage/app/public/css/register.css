@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial, sans-serif;
     margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: row;
 }
 .left-side {
     flex: 2;
@@ -12,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 .left-side h1 {
     font-size: 48px;

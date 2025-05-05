@@ -20,3 +20,7 @@ Route::get('/registrasi', function () {
 Route::get('/login', function () {
     return view('auth.login');
 })->name('login');
+
+Route::get('/', function () {
+    return view('dashboard.home');
+})->name('home');

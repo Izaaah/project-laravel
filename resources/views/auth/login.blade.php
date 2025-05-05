@@ -1,4 +1,4 @@
-@extends('dashboard.master')
+@extends('auth.layout')
 
 @section('title', 'Login')
 
