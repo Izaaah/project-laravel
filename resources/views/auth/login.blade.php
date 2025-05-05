@@ -4,8 +4,8 @@
 
 @section('content')
     <div class="left-side">
-        <h1>TulisAja</h1>
-        {{-- <img src="{{ asset('storage/img/cover_regis.png') }}" alt="Buku dan Laptop"> --}}
+        {{-- <h1>TulisAja</h1> --}}
+        <img src="{{ asset('storage/img/cover_regis.png') }}" alt="Buku dan Laptop">
     </div>
 
     <div class="right-side">
