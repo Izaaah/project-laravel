@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    @vite('resources/css/app.css')
 </head>
+
+<body class="bg-gray-50">
+    @include('layout.navbar')
+    @include('layout.hero')
+
+    <main>
+        @yield('content')
+    </main>
+</body>
+</html>
