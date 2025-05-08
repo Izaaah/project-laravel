@@ -24,3 +24,7 @@ Route::get('/login', function () {
 Route::get('/', function () {
     return view('dashboard.home');
 })->name('home');
+
+Route::get('/user', function () {
+    return view('dashboard.user');
+})->name('user');
