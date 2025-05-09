@@ -17,6 +17,10 @@
                 <a href="#" class="text-white hover:bg-white/20 px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out">
                     Tentang Kami
                 </a>
+                <a href="{{ route('login') }}" class="text-white hover:bg-white/20 px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out">
+                    <i class="bi bi-person"></i>
+                    Log In
+                </a>
             </div>
         </div>
     </div>
