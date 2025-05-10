@@ -22,9 +22,9 @@ Route::get('/login', function () {
 })->name('login');
 
 Route::get('/', function () {
-    return view('dashboard.home');
+    return view('dashboard.user');
 })->name('home');
 
-Route::get('/user', function () {
-    return view('dashboard.user');
+Route::get('/home', function () {
+    return view('dashboard.home');
 })->name('user');
