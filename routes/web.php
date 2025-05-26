@@ -11,7 +11,7 @@ Route::middleware(['auth'])->group(function () {
     Route::resource('users', UserController::class);
 });
 
-Route::get('/registrasi', function () {
+Route::get('/register', function () {
     return view('auth.register');
 })->name('registrasi');
 
@@ -21,10 +21,18 @@ Route::get('/login', function () {
     return view('auth.login');
 })->name('login');
 
-Route::get('/', function () {
-    return view('dashboard.user');
-})->name('home');
+Route::get('/profile', function () {
+    return view('dashboard.landing');
+})->name('profile');
 
-Route::get('/home', function () {
-    return view('dashboard.home');
+Route::get('/', function () {
+    return view('main_page.page');
 })->name('user');
+
+Route::get('/content', function () {
+    return view('article.main_content');
+})->name('content');
+
+Route::get('/foto', function () {
+    return view('article.main_foto');
+})->name('foto');

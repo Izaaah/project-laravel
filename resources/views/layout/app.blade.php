@@ -9,11 +9,14 @@
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <title>@yield('title', 'Default Title')</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <title>@yield('title', 'TandaBaca')</title>
 </head>
 <body>
     <main>
         @yield('content')
     </main>
+    <script src="storage/js/foto.js"></script>
 </body>
 </html>
